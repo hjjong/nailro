@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="keyboard" class="com.company.nailro.keyboard">
+		<property name="type" value="text"></property>
+	</bean>
+	
+	<bean id="keyboard2" class="com.company.nailro.keyboard">
+		<property name="type" value="buttons"></property>
+		<property name="buttons" value=""></property>
+	</bean>
+	
+
+</beans>
